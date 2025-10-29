@@ -1,0 +1,730 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.2/respin/6000.2.7f1-2eb0c79396db' branch; Version is '6000.2.7f2 (2b518236b676) revision 2838914'; Using compiler version '194234433'; Build Type 'Release'
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-hirot" at "2025-10-29T13:24:52.1881949Z"
+OS: 'Windows 11  (10.0.26200) 64bit Core' Language: 'ja' Physical Memory: 32581 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+Date: 2025-10-29T13:24:52Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.2.7f2\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker15
+-projectPath
+C:/Users/hirot/Game/Card-Game
+-logFile
+Logs/AssetImportWorker15.log
+-srvPort
+64244
+-job-worker-count
+11
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: C:/Users/hirot/Game/Card-Game
+C:/Users/hirot/Game/Card-Game
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [16276]  Target information:
+
+Player connection [16276]  * "[IP] 192.168.0.3 [Port] 0 [Flags] 2 [Guid] 1130515706 [EditorId] 1130515706 [Version] 1048832 [Id] WindowsEditor(7,DESKTOPAH) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [16276] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [16276] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 11
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 28572, path: "C:/Program Files/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.17.3+a4e98f1
+  Session Id:              59dbbec339a64247886f4756eb9187e8
+  Correlation Id:          657ee7b32d5bee62fcecd35319a45285
+  External correlation Id: 7211806224858320627
+  Machine Id:              XIQeEX9gaOvWoHS8EliWKbx6WX0=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-hirot" (connect: 0.00s, validation: 0.00s, handshake: 0.05s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-hirot-notifications" at "2025-10-29T13:24:52.2371772Z"
+[Licensing::Module] Licensing Background thread has ended after 0.05s
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 2.28 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.2.7f2 (2b518236b676)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.2.7f2/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/hirot/Game/Card-Game/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 Ti (ID=0x2489)
+    Vendor:   NVIDIA
+    VRAM:     8024 MB
+    Driver:   32.0.15.7640
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.2.7f2/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.2.7f2/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.2.7f2/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56068
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.2.7f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001286 seconds.
+- Loaded All Assemblies, in  0.305 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.261 seconds
+Domain Reload Profiling: 564ms
+	BeginReloadAssembly (100ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (42ms)
+	LoadAllAssembliesAndSetupDomain (125ms)
+		LoadAssemblies (97ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (123ms)
+			TypeCache.Refresh (122ms)
+				TypeCache.ScanAssembly (112ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (261ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (229ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (41ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (55ms)
+			ProcessInitializeOnLoadAttributes (95ms)
+			ProcessInitializeOnLoadMethodAttributes (35ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-9F7T-DDEE-Z6XH-NC3V-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: Unlimited
+[Licensing::Module] License group:
+  Id: 15668569634226-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+- Loaded All Assemblies, in  0.562 seconds
+Refreshing native plugins compatible for Editor in 1.43 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.532 seconds
+Domain Reload Profiling: 1091ms
+	BeginReloadAssembly (125ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (20ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (28ms)
+	LoadAllAssembliesAndSetupDomain (374ms)
+		LoadAssemblies (252ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (188ms)
+			TypeCache.Refresh (139ms)
+				TypeCache.ScanAssembly (127ms)
+			BuildScriptInfoCaches (40ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (532ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (429ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (1ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (90ms)
+			ProcessInitializeOnLoadAttributes (256ms)
+			ProcessInitializeOnLoadMethodAttributes (74ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 1.62 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 36 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6744 unused Assets / (6.6 MB). Loaded Objects now: 7448.
+Memory consumption went from 147.2 MB to 140.6 MB.
+Total: 11.263900 ms (FindLiveObjects: 0.598200 ms CreateObjectMapping: 0.682200 ms MarkObjects: 5.504300 ms  DeleteObjects: 4.477600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 473286.449287 seconds.
+  path: Assets/DungeonMonsters2D/Other
+  artifactKey: Guid(860fc06e3c6f1b24fb59ea1cdec9586f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DungeonMonsters2D/Other using Guid(860fc06e3c6f1b24fb59ea1cdec9586f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c3f2f7f61a5150724bcc0c28a4e3a3df') in 0.0034505 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.059774 seconds.
+  path: Assets/DungeonMonsters2D/Other/Arrow.png
+  artifactKey: Guid(6e57beadba8706b4e9ae8369000ee79b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DungeonMonsters2D/Other/Arrow.png using Guid(6e57beadba8706b4e9ae8369000ee79b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '098e1fc87c824f7a965dc72f3b290bf7') in 0.081929 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.897539 seconds.
+  path: Assets/DungeonMonsters2D/Animation/Bat
+  artifactKey: Guid(9a6a1cfd27113fb42b7234fe40c86cf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DungeonMonsters2D/Animation/Bat using Guid(9a6a1cfd27113fb42b7234fe40c86cf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '27bd2b7b7567fa93c4e3eeb8ed1f74b4') in 0.0004287 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.544294 seconds.
+  path: Assets/DungeonMonsters2D/Scene
+  artifactKey: Guid(34e30d80e260b98479c2207e552445e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DungeonMonsters2D/Scene using Guid(34e30d80e260b98479c2207e552445e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'aa1f49bda86627f5dbc9194b8e34d06b') in 0.000395 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.924308 seconds.
+  path: Assets/DungeonMonsters2D/Animation/Imp/IdleImp.anim
+  artifactKey: Guid(22f017c95306acd4aa7bd6b0d1ded496) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DungeonMonsters2D/Animation/Imp/IdleImp.anim using Guid(22f017c95306acd4aa7bd6b0d1ded496) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '94a0a14dee38610b8cd6a63cf6e9da6f') in 0.1751457 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/DungeonMonsters2D/Animation/Zombie/AttackZombie.anim
+  artifactKey: Guid(0be119d3e4d058944af43693c4a2c938) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DungeonMonsters2D/Animation/Zombie/AttackZombie.anim using Guid(0be119d3e4d058944af43693c4a2c938) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7e3976e6ab81cada263bf43acfc441b1') in 0.013668 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/DungeonMonsters2D/PSB/StoneGolemPSB.psb
+  artifactKey: Guid(675cbe2d8fee82d409bd601d86bf4ea7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DungeonMonsters2D/PSB/StoneGolemPSB.psb using Guid(675cbe2d8fee82d409bd601d86bf4ea7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '50af23bc89a1f8c06922fa08e6df9851') in 0.1922166 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 108
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/DungeonMonsters2D/Animation/GolemCrystal/DeathCrystalGolem.anim
+  artifactKey: Guid(4895bd9dedec7d84fab7d1ba0c46a753) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DungeonMonsters2D/Animation/GolemCrystal/DeathCrystalGolem.anim using Guid(4895bd9dedec7d84fab7d1ba0c46a753) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '620f84ce26c89a731c4cff9882f3b477') in 0.0124541 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/DungeonMonsters2D/Animation/Succubus/SuccubusAnimation.controller
+  artifactKey: Guid(ca275b56046777240879e0c179a4f5cc) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DungeonMonsters2D/Animation/Succubus/SuccubusAnimation.controller using Guid(ca275b56046777240879e0c179a4f5cc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '16d80e9105657a8a1e06e2e59a36794c') in 0.0268443 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 38
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/DungeonMonsters2D/Other/Arrow.png
+  artifactKey: Guid(6e57beadba8706b4e9ae8369000ee79b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DungeonMonsters2D/Other/Arrow.png using Guid(6e57beadba8706b4e9ae8369000ee79b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8c5a9a7c81be22f7002569aa67328960') in 0.0300566 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/DungeonMonsters2D/Animation/Demon/IdleDemon.anim
+  artifactKey: Guid(d34d1975512d4cb49baba45e7791fadb) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DungeonMonsters2D/Animation/Demon/IdleDemon.anim using Guid(d34d1975512d4cb49baba45e7791fadb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fe011ebbcf19c3a49c066fe131052d06') in 0.0203377 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/DungeonMonsters2D/Animation/Succubus/IdleSuccubus.anim
+  artifactKey: Guid(2ea85d4212d6d6a42bff3555da30098a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DungeonMonsters2D/Animation/Succubus/IdleSuccubus.anim using Guid(2ea85d4212d6d6a42bff3555da30098a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f73067dc659bffb008819fb591c5a296') in 0.0147826 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/DungeonMonsters2D/PSB/RatMonsterPSB.psb
+  artifactKey: Guid(182499511eda5fd4d85381b53a9e3361) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DungeonMonsters2D/PSB/RatMonsterPSB.psb using Guid(182499511eda5fd4d85381b53a9e3361) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9aedf50c6d879c982ca4f646260a40f4') in 0.1327111 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 86
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/DungeonMonsters2D/Characters/Vampire.prefab
+  artifactKey: Guid(dc4eb993c6c2e434f88d7a71922b2879) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DungeonMonsters2D/Characters/Vampire.prefab using Guid(dc4eb993c6c2e434f88d7a71922b2879) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8615ba7428c4f22e12853da3c9a318e9') in 0.0541924 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 172
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/DungeonMonsters2D/Characters/Ghost.prefab
+  artifactKey: Guid(c7ba699d54ffef146a65ae69b8cb2961) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DungeonMonsters2D/Characters/Ghost.prefab using Guid(c7ba699d54ffef146a65ae69b8cb2961) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6b456a1e5db73c68357cb31f218cee76') in 0.0330511 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 111
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/DungeonMonsters2D/Animation/Ghost/MoveGhost.anim
+  artifactKey: Guid(f139f4595fe98ee4a96419f466cdfbb5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DungeonMonsters2D/Animation/Ghost/MoveGhost.anim using Guid(f139f4595fe98ee4a96419f466cdfbb5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fbb6e5de3e33087e13fb4056e1466f20') in 0.0143999 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/DungeonMonsters2D/Animation/Rat/RatAnimation.controller
+  artifactKey: Guid(dbc8c6076faf7ee468e4d73ed2639445) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DungeonMonsters2D/Animation/Rat/RatAnimation.controller using Guid(dbc8c6076faf7ee468e4d73ed2639445) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ddfa7025b5f71aa626c8804388ff6ec5') in 0.024327 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 38
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/DungeonMonsters2D/Animation/Dragon/MoveDragon.anim
+  artifactKey: Guid(379b8e5acca19224483e8c9eddeb815a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DungeonMonsters2D/Animation/Dragon/MoveDragon.anim using Guid(379b8e5acca19224483e8c9eddeb815a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '55f556bd2953e7afc2c36e0014bff2ee') in 0.0175325 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/DungeonMonsters2D/Animation/GolemMagma/StunedMagmaGolem.anim
+  artifactKey: Guid(d56beed94ec9a464684f611481f6584e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DungeonMonsters2D/Animation/GolemMagma/StunedMagmaGolem.anim using Guid(d56beed94ec9a464684f611481f6584e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3c729494eef90d4a294d4384511acced') in 0.0150897 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/DungeonMonsters2D/Animation/GolemMagma
+  artifactKey: Guid(2f26a179c67eee145bd030c779a015a6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DungeonMonsters2D/Animation/GolemMagma using Guid(2f26a179c67eee145bd030c779a015a6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd216827aef0818054ab624efcba13980') in 0.011361 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/DungeonMonsters2D/Animation/Rat/JumpRat.anim
+  artifactKey: Guid(88f44a2d2a2d7874c9a11b7a82e3e255) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DungeonMonsters2D/Animation/Rat/JumpRat.anim using Guid(88f44a2d2a2d7874c9a11b7a82e3e255) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e4cf0509985cb264c9d2964721da64aa') in 0.0141637 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/DungeonMonsters2D/Animation/GolemMagma/ClimbMagmaGolem.anim
+  artifactKey: Guid(591f6cfa2a7a06942aba3650a774f363) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DungeonMonsters2D/Animation/GolemMagma/ClimbMagmaGolem.anim using Guid(591f6cfa2a7a06942aba3650a774f363) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cc3caf1827b72f8cd3697cf9d4bc07b7') in 0.0133852 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/DungeonMonsters2D/Animation/GolemCrystal
+  artifactKey: Guid(be0f16eb7251bcb4fa032590b93f1b4a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DungeonMonsters2D/Animation/GolemCrystal using Guid(be0f16eb7251bcb4fa032590b93f1b4a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2b684ce28c07e3e01aef3ca3234ac31d') in 0.0128683 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/DungeonMonsters2D/Animation/Imp
+  artifactKey: Guid(3c335e7f23643bf43b36b473ee652728) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DungeonMonsters2D/Animation/Imp using Guid(3c335e7f23643bf43b36b473ee652728) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f9e9fdab6aca6dbb9d092baffda2beec') in 0.0117534 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/DungeonMonsters2D/Animation/ZombieWarrior/ZombieWarriorAnimation.controller
+  artifactKey: Guid(aa13b260d4e40964ba9f62493c3961f5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DungeonMonsters2D/Animation/ZombieWarrior/ZombieWarriorAnimation.controller using Guid(aa13b260d4e40964ba9f62493c3961f5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '943616391debde0e3eb0e9f50a4eac04') in 0.0209795 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 38
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/DungeonMonsters2D/Animation/GolemCrystal/ClimbCrystalGolem.anim
+  artifactKey: Guid(4bed373bdf90cde49aa4b596020fdddd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DungeonMonsters2D/Animation/GolemCrystal/ClimbCrystalGolem.anim using Guid(4bed373bdf90cde49aa4b596020fdddd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ee4f7fab1a7eee86520f890036a5c78f') in 0.0152976 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/DungeonMonsters2D/PSB/DragonRedPSB.psb
+  artifactKey: Guid(59d30bb756e9b024a93af35adb34bbee) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DungeonMonsters2D/PSB/DragonRedPSB.psb using Guid(59d30bb756e9b024a93af35adb34bbee) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f3aea43c24213bb532d3b81aad9d4a1e') in 0.244542 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 143
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/DungeonMonsters2D/Animation/SkeletonArcher
+  artifactKey: Guid(f506a50c5f1c8cc40b47fdf0f06af7e6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DungeonMonsters2D/Animation/SkeletonArcher using Guid(f506a50c5f1c8cc40b47fdf0f06af7e6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a01841329cc42d8e0689dce548c5bae1') in 0.0118289 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/DungeonMonsters2D/Animation/Rat/ClimbRat.anim
+  artifactKey: Guid(3fd8f158a9fe100429ef7a861ce056fa) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DungeonMonsters2D/Animation/Rat/ClimbRat.anim using Guid(3fd8f158a9fe100429ef7a861ce056fa) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '18dac5a2aa0c040306a458e9efd94875') in 0.0207499 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/DungeonMonsters2D/Animation/Demon/AttackDemon.anim
+  artifactKey: Guid(f27043eddf221bf4997fd4ef33bf6adb) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DungeonMonsters2D/Animation/Demon/AttackDemon.anim using Guid(f27043eddf221bf4997fd4ef33bf6adb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '048776102547c547b6c4192eeda591f6') in 0.0156777 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/DungeonMonsters2D/Animation/Demon/DemonAnimation.controller
+  artifactKey: Guid(653cf8bf39e7e4e4280612423831774b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DungeonMonsters2D/Animation/Demon/DemonAnimation.controller using Guid(653cf8bf39e7e4e4280612423831774b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9210ec21872bae2ef09500bdad739f0b') in 0.0214856 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 38
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/DungeonMonsters2D/Animation/Zombie/JumpZombie.anim
+  artifactKey: Guid(f12fc2ebdc59b904b9f37bbe6250d4c7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DungeonMonsters2D/Animation/Zombie/JumpZombie.anim using Guid(f12fc2ebdc59b904b9f37bbe6250d4c7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '24c70d8b4bc4dfdf1bc68ed8ca5e11e3') in 0.0138024 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/DungeonMonsters2D/Animation/Zombie/MoveZombie.anim
+  artifactKey: Guid(3e727bac8e696c149bb51e26a99e67bc) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DungeonMonsters2D/Animation/Zombie/MoveZombie.anim using Guid(3e727bac8e696c149bb51e26a99e67bc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd789dee4e20c93ba34d387d6e2b2caa4') in 0.0124224 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/DungeonMonsters2D/PSB/SkeletonWarriorPSB.psb
+  artifactKey: Guid(9183229b53570b240a9b92aa3d47d2cf) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DungeonMonsters2D/PSB/SkeletonWarriorPSB.psb using Guid(9183229b53570b240a9b92aa3d47d2cf) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ec039bf57ef88199cf490b9c85e88f31') in 0.0988606 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 76
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/DungeonMonsters2D/Animation/GhostKnight/StunedGhostKnight.anim
+  artifactKey: Guid(29354bf07fadd9f4694cfb418da03dbf) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DungeonMonsters2D/Animation/GhostKnight/StunedGhostKnight.anim using Guid(29354bf07fadd9f4694cfb418da03dbf) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0a25e83c6d2a3be44dbea630f828e610') in 0.014418 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/DungeonMonsters2D/Animation/GhostKnight/TalkGhostKnight.anim
+  artifactKey: Guid(0a278189d096a144d9e7847ea6460404) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DungeonMonsters2D/Animation/GhostKnight/TalkGhostKnight.anim using Guid(0a278189d096a144d9e7847ea6460404) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e7736bcee961802a1d147869dc75d198') in 0.0146466 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/DungeonMonsters2D/Animation/SkeletonArcher/IdleSkeletonArcher.anim
+  artifactKey: Guid(0a7ced13d1e249445b625b37895462bc) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DungeonMonsters2D/Animation/SkeletonArcher/IdleSkeletonArcher.anim using Guid(0a7ced13d1e249445b625b37895462bc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd89602f1e45c81adab4bbaa7a52450bd') in 0.0150396 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/DungeonMonsters2D/Animation/Succubus/JumpSuccubus.anim
+  artifactKey: Guid(69e62f5614b1d5644bddc6a8c45cdc9e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DungeonMonsters2D/Animation/Succubus/JumpSuccubus.anim using Guid(69e62f5614b1d5644bddc6a8c45cdc9e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '294b2b874cc34b10080590cbe515c10f') in 0.0138343 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/DungeonMonsters2D/Animation/Butcher
+  artifactKey: Guid(8bb0a74a71bc2484cb9e4158aa1bdbb9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DungeonMonsters2D/Animation/Butcher using Guid(8bb0a74a71bc2484cb9e4158aa1bdbb9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b4746493cd4f5ea814ead336dc90bd49') in 0.0118683 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/DungeonMonsters2D/Animation/Bat/IdleBat.anim
+  artifactKey: Guid(32b08f481b18b854696111981981354f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DungeonMonsters2D/Animation/Bat/IdleBat.anim using Guid(32b08f481b18b854696111981981354f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fb235539a891d2ad82dee8778fe94d2e') in 0.0139004 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Scenes/InGame.unity
+  artifactKey: Guid(bc36eae928414184589ffb1fb98388a3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/InGame.unity using Guid(bc36eae928414184589ffb1fb98388a3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9475305d1a64aedb35de3c2041cb9189') in 0.0117343 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/DungeonMonsters2D/UserInterface/text_frame_black2.png
+  artifactKey: Guid(dcc8dce507571514d87a006c8cf327bf) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DungeonMonsters2D/UserInterface/text_frame_black2.png using Guid(dcc8dce507571514d87a006c8cf327bf) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '701731ffdcd6e75d8f36cf14f0e5d40c') in 0.0197014 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/DungeonMonsters2D/Scene/SlideMonsters.unity
+  artifactKey: Guid(a247675e137b43e4fbb1f8f44ac553fc) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DungeonMonsters2D/Scene/SlideMonsters.unity using Guid(a247675e137b43e4fbb1f8f44ac553fc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4c3808bd88f1cf1addc2dae2f8a92215') in 0.0143587 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/DungeonMonsters2D/Characters/Butcher.prefab
+  artifactKey: Guid(32b4c8e894fcd654d93a9cc3a2c6955c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DungeonMonsters2D/Characters/Butcher.prefab using Guid(32b4c8e894fcd654d93a9cc3a2c6955c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7699c42825c0901c75fbd2cd514ba688') in 0.0235589 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 117
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/DungeonMonsters2D/Animation/Bat/TalkBat.anim
+  artifactKey: Guid(66d09d41a0567024b9fae84ef3bd37c0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DungeonMonsters2D/Animation/Bat/TalkBat.anim using Guid(66d09d41a0567024b9fae84ef3bd37c0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4e24908e8678a7ebd6ae10c05f7f6846') in 0.0150542 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/DungeonMonsters2D/Animation/GolemMagma/SpecialAttackMagmaGolem.anim
+  artifactKey: Guid(42bc78a59b06a734281f7ea5a773bc61) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DungeonMonsters2D/Animation/GolemMagma/SpecialAttackMagmaGolem.anim using Guid(42bc78a59b06a734281f7ea5a773bc61) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '25e0f64c6aecbff654ce328937f81ec7') in 0.0155912 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/DungeonMonsters2D/Animation/Ghost/SpecialAttackGhost.anim
+  artifactKey: Guid(d14d93f783180e8428c428035c08ac09) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DungeonMonsters2D/Animation/Ghost/SpecialAttackGhost.anim using Guid(d14d93f783180e8428c428035c08ac09) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f9e0d522223a8c97bd03ad03b42fb2d2') in 0.0145704 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/DungeonMonsters2D/Animation/Butcher/MoveButcher.anim
+  artifactKey: Guid(e36b5cc2de722854bbcf0ef6269f666a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DungeonMonsters2D/Animation/Butcher/MoveButcher.anim using Guid(e36b5cc2de722854bbcf0ef6269f666a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b4c3c9a7c32101fcac91af6a1e9d5fba') in 0.0168731 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/DungeonMonsters2D/Animation/Ghost/GhostAnimation.controller
+  artifactKey: Guid(3c1468661cd72f541b0098fd04f3b0ea) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DungeonMonsters2D/Animation/Ghost/GhostAnimation.controller using Guid(3c1468661cd72f541b0098fd04f3b0ea) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4ec3f9ae259d4e5369b282e578ca22a3') in 0.0231996 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 38
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.26 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 35 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6730 unused Assets / (7.4 MB). Loaded Objects now: 7455.
+Memory consumption went from 151.3 MB to 143.9 MB.
+Total: 15.883200 ms (FindLiveObjects: 0.880400 ms CreateObjectMapping: 1.063700 ms MarkObjects: 7.394100 ms  DeleteObjects: 6.543500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-9F7T-DDEE-Z6XH-NC3V-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: Unlimited
+[Licensing::Module] License group:
+  Id: 15668569634226-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+- Loaded All Assemblies, in  0.537 seconds
+Refreshing native plugins compatible for Editor in 1.05 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.479 seconds
+Domain Reload Profiling: 1015ms
+	BeginReloadAssembly (162ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (40ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (21ms)
+	LoadAllAssembliesAndSetupDomain (321ms)
+		LoadAssemblies (254ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (135ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (117ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (479ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (369ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (1ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (86ms)
+			ProcessInitializeOnLoadAttributes (237ms)
+			ProcessInitializeOnLoadMethodAttributes (38ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 1.99 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 35 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6740 unused Assets / (6.6 MB). Loaded Objects now: 7458.
+Memory consumption went from 157.6 MB to 151.0 MB.
+Total: 10.329300 ms (FindLiveObjects: 0.654000 ms CreateObjectMapping: 0.536800 ms MarkObjects: 4.877100 ms  DeleteObjects: 4.260100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 760.805513 seconds.
+  path: Assets/PotionJunkies/7Enemies
+  artifactKey: Guid(41dfdb0dca3f36749ac4fa98bda3d848) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PotionJunkies/7Enemies using Guid(41dfdb0dca3f36749ac4fa98bda3d848) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8d6e7e4c3db7fd924f82a725569143f1') in 0.0115673 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.043166 seconds.
+  path: Assets/PotionJunkies/7Enemies/Texture
+  artifactKey: Guid(2b158bfb99f149d4c8aedd6583799c28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PotionJunkies/7Enemies/Texture using Guid(2b158bfb99f149d4c8aedd6583799c28) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '48b536d3b3052045b9b10ea6226ee97f') in 0.0004326 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.044649 seconds.
+  path: Assets/PotionJunkies/7Enemies/Texture/01_Arachne.png
+  artifactKey: Guid(e2c8c466ee15f9d46b73b2ff9da8382f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PotionJunkies/7Enemies/Texture/01_Arachne.png using Guid(e2c8c466ee15f9d46b73b2ff9da8382f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fb255f0320ebca87f16f0c5883ef2b2f') in 0.0728192 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/PotionJunkies/7Enemies/Texture/06_NemianLion.png
+  artifactKey: Guid(e9cd798771025f04788816e499b23a28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PotionJunkies/7Enemies/Texture/06_NemianLion.png using Guid(e9cd798771025f04788816e499b23a28) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2d9df1230de906b87ab4483d63c94b79') in 0.0221855 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/PotionJunkies/7Enemies/Texture/04_FuryDemon.png
+  artifactKey: Guid(d760cca8d060033478aec42510721b60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PotionJunkies/7Enemies/Texture/04_FuryDemon.png using Guid(d760cca8d060033478aec42510721b60) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6fad4730b2da27981918dd03e9f43484') in 0.0265008 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/PotionJunkies/7Enemies/Texture/07_Wolf.png
+  artifactKey: Guid(24d14fd6c311ec341a4a2a890a3c6d4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PotionJunkies/7Enemies/Texture/07_Wolf.png using Guid(24d14fd6c311ec341a4a2a890a3c6d4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '894ac55524d3ea960c4d325ee02cec61') in 0.0190505 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
